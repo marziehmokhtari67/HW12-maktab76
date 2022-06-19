@@ -1,0 +1,17 @@
+body{
+    display:flex;
+    background-color: aquamarine;
+    flex-direction:column;
+    align-items:center;
+
+}
+h1{
+    position:absolute;
+    margin-top: 20%;
+}
+P{
+    color:rgb(241, 35, 145);
+    font-weight:bold;
+    margin-top:25%;
+    font-size: 1.5rem;
+}
