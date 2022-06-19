@@ -1,0 +1,15 @@
+body{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    background-color:rgb(110, 226, 149);
+}
+#container{
+    margin-top:50px;
+    font-size:3rem ;
+    color: rgb(197, 36, 68);
+}
+#show_position{
+    font-weight: bold;
+}
