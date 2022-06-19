@@ -1,5 +1,5 @@
 
-// first section
+/// first section
 
 let nameInput = document.getElementById("name")
 let emailInput =document.getElementById("email")
