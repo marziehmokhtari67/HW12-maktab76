@@ -1,0 +1,27 @@
+@mixin info($gray,$white) {
+    
+    &:nth-child(1){
+        color:$gray;
+        font-size:0.75rem;
+    }
+    &:nth-child(2){
+        color:$white;
+        font-weight:lighter;
+        margin:10px 0px;
+    }
+        
+}
+@mixin contact ($width,$color){
+    background:$color;
+    width:$width;
+    padding:10px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    font-weight:100px;
+}
+@mixin  INPUT($height){
+    height:$height;
+    width:90%;
+    margin:8px 0px;
+    border-radius: 5px;
+}

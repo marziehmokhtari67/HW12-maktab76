@@ -1,0 +1,74 @@
+@import "variable.scss";
+@import "mixin.scss";
+body{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(229, 234, 238);
+    margin: 0px;
+    height: 100vh;
+}
+.container{
+    display:flex;
+    height:90%;
+    width:60%;
+    margin: 40px 0px;
+   
+}
+
+// aside
+aside{
+
+    @include contact(45%,$darkBlue);
+    display: flex;
+    flex-direction: column; 
+     
+    h1{
+        color:$white
+    }
+    div{
+        p{
+        @include info($gray,$white)
+    }
+    
+    }
+    footer{
+       display:flex;
+       gap:10px;
+       color:$white;
+       font-size: 0.75rem;
+       padding:10px 0px;
+        margin-top: auto;
+    }
+}
+// contact us
+.contact-us{
+    margin:10px 0px;
+    @include contact(55%,$white) ;
+    h1{
+        border-bottom:1px solid $gray;
+        padding-bottom: 5px;
+    }
+    form {
+        height:90%;
+        
+        }
+        input{
+            @include INPUT(8%);
+            border:1px solid black;
+           
+        }
+        textarea{
+            @include INPUT(16%);
+        
+        }
+        button{
+            background-color: $darkBlue;
+            color:$white;
+            @include INPUT(8%);
+            border:none;
+
+        }
+
+    }
+
+
